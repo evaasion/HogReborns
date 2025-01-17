@@ -1,44 +1,44 @@
 # HogReborns
 
-HogReborns est un projet ambitieux visant à créer une expérience multijoueur immersive et personnalisée pour un environnement basé sur **Hogwarts Legacy**. Ce projet combine des scripts client (via **UE4SS**) et un serveur créé avec la bibliothèque réseau **ENet**.
+HogReborns is an ambitious project aimed at creating an immersive and customizable multiplayer experience for an environment based on **Hogwarts Legacy**. This project combines client scripts (via **UE4SS**) with a server built using the **ENet** networking library.
 
 ---
 
-## Fonctionnalités principales
+## Key Features
 
-- **Connexion/Déconnexion dynamique** : Activez ou désactivez le mode multijoueur directement en jeu avec une touche configurable.
-- **Affichage du ping** : Visualisez votre latence en temps réel directement dans l’interface utilisateur.
-- **Serveur personnalisé** : Gestion efficace des connexions et synchronisation des joueurs avec un backend écrit en C++.
-- **Scripts client évolutifs** : Exploitez la puissance de Lua via UE4SS pour enrichir le gameplay.
+- **Dynamic Connection/Disconnection**: Enable or disable multiplayer mode directly in-game with a configurable key.
+- **Ping Display**: View your latency in real-time directly on the user interface.
+- **Custom Server**: Efficient connection management and player synchronization with a backend written in C++.
+- **Scalable Client Scripts**: Harness the power of Lua via UE4SS to enhance gameplay.
 
 ---
 
-## Prérequis
+## Prerequisites
 
-### **Outils et dépendances**
+### **Tools and Dependencies**
 
-- **Visual Studio 2019 ou 2022** (avec le module de développement C++)
-- **CMake** (pour compiler la bibliothèque ENet)
-- **Bibliothèques requises** :
+- **Visual Studio 2019 or 2022** (with the C++ development module)
+- **CMake** (to compile the ENet library)
+- **Required Libraries**:
   - [ENet](https://github.com/lsalzman/enet)
-  - `Ws2_32.lib` et `Winmm.lib` (inclus avec Windows SDK)
+  - `Ws2_32.lib` and `Winmm.lib` (included with the Windows SDK)
 
-### **Fichiers requis**
+### **Required Files**
 
-- UE4SS : Pour injecter des scripts Lua dans le client du jeu.
-- Fichiers de configuration personnalisés pour UE4SS et ENet (disponibles dans ce dépôt).
+- UE4SS: To inject Lua scripts into the game client.
+- Custom configuration files for UE4SS and ENet (available in this repository).
 
 ---
 
 ## Installation
 
-1. Clonez ce dépôt :
+1. Clone this repository:
 
    ```bash
-   git clone https://github.com/votre-utilisateur/HogReborns.git
+   git clone https://github.com/your-username/HogReborns.git
    ```
 
-2. Compilez la bibliothèque **ENet** :
+2. Compile the **ENet** library:
 
    ```bash
    cd enet-master
@@ -46,57 +46,57 @@ HogReborns est un projet ambitieux visant à créer une expérience multijoueur 
    cmake --build .
    ```
 
-   Cela générera le fichier `enet.lib` dans le répertoire `Debug` ou `Release`.
+   This will generate the `enet.lib` file in the `Debug` or `Release` directory.
 
-3. Configurez votre environnement :
+3. Configure your environment:
 
-   - Placez les fichiers compilés (serveur et scripts client) dans les répertoires correspondants.
-   - Assurez-vous que **UE4SS** est installé correctement avec les fichiers Lua de ce projet.
+   - Place the compiled files (server and client scripts) in their corresponding directories.
+   - Ensure that **UE4SS** is properly installed along with the Lua files from this project.
 
-4. Lancez le serveur :
+4. Start the server:
 
    ```bash
    ./HogRebornsServer.exe
    ```
 
-5. Lancez le client et appuyez sur la touche configurée (`Insert` par défaut) pour activer le mode multijoueur.
+5. Launch the client and press the configured key (`Insert` by default) to activate multiplayer mode.
 
 ---
 
-## Utilisation
+## Usage
 
-### **Contrôles en jeu**
+### **In-Game Controls**
 
-- **Activer/Désactiver le multijoueur** : Appuyez sur `Insert`.
-- **Affichage du ping** : Visible dans le coin supérieur droit de l’écran une fois connecté au serveur.
+- **Enable/Disable Multiplayer**: Press `Insert`.
+- **Ping Display**: Shown in the top-right corner of the screen once connected to the server.
 
-### **Personnalisation**
+### **Customization**
 
-- Modifiez les fichiers Lua pour ajuster les comportements client.
-- Changez le port du serveur ou les paramètres de connexion dans le fichier de configuration principal.
+- Modify the Lua files to adjust client behavior.
+- Change the server port or connection settings in the main configuration file.
 
 ---
 
 ## Contribution
 
-Les contributions sont les bienvenues ! Voici comment vous pouvez aider :
+Contributions are welcome! Here's how you can help:
 
-1. Forkez ce dépôt.
-2. Créez une branche pour vos modifications :
+1. Fork this repository.
+2. Create a branch for your changes:
    ```bash
-   git checkout -b ma-nouvelle-fonctionnalite
+   git checkout -b my-new-feature
    ```
-3. Faites vos modifications et soumettez une Pull Request.
+3. Make your changes and submit a Pull Request.
 
 ---
 
 ## Support
 
-Si vous avez des questions ou des problèmes, ouvrez une **Issue** sur ce dépôt ou contactez-moi directement.
+If you have questions or encounter issues, open an **Issue** on this repository or contact me directly.
 
 ---
 
-## Licence
+## License
 
-Ce projet est sous licence **MIT**. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
+This project is licensed under the **MIT** License. See the [LICENSE](LICENSE) file for details. 
 
