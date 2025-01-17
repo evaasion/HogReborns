@@ -1,0 +1,11 @@
+﻿  HogReborns.cpp
+     Création de la bibliothèque C:\HogReborns\Framework\source\repos\HogReborns\x64\Release\HogReborns.lib et de l'objet C:\HogReborns\Framework\source\repos\HogReborns\x64\Release\HogReborns.exp
+HogReborns.exp : warning LNK4070: la directive /OUT:HogRebornsClient.dll dans .EXP est différente du nom du fichier de sortie 'C:\HogReborns\Framework\source\repos\HogReborns\x64\Release\HogReborns.dll' ; directive ignorée
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'MSVCRTD' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+  Génération de code en cours
+  1 of 93 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+HogReborns.exp : warning LNK4070: la directive /OUT:HogRebornsClient.dll dans .EXP est différente du nom du fichier de sortie 'C:\HogReborns\Framework\source\repos\HogReborns\x64\Release\HogReborns.dll' ; directive ignorée
+  HogReborns.vcxproj -> C:\HogReborns\Framework\source\repos\HogReborns\x64\Release\HogReborns.dll

@@ -1,0 +1,7 @@
+LIBRARY "HogRebornsClient"
+EXPORTS
+    InitializeClient
+    ConnectToServer
+    SendData
+    DisconnectFromServer
+    CleanupClient

@@ -1,0 +1,2 @@
+﻿  HogReborns.cpp
+LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'DllMain.obj'

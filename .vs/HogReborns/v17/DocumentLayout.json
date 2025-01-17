@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\HogReborns\\Framework\\source\\repos\\HogReborns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03A64FA1-011E-4DF7-AF0E-F5CBE89676B1}|HogReborns.vcxproj|C:\\HogReborns\\Framework\\source\\repos\\HogReborns\\HogReborns.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{03A64FA1-011E-4DF7-AF0E-F5CBE89676B1}|HogReborns.vcxproj|solutionrelative:HogReborns.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A64FA1-011E-4DF7-AF0E-F5CBE89676B1}|HogReborns.vcxproj|C:\\HogReborns\\Framework\\source\\repos\\HogReborns\\exports.def||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{03A64FA1-011E-4DF7-AF0E-F5CBE89676B1}|HogReborns.vcxproj|solutionrelative:exports.def||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAFB34CA-B954-4EC3-9122-7002D248DC23}|..\\HogRebornsServeur\\HogRebornsServeur.vcxproj|C:\\HogReborns\\Framework\\source\\repos\\HogRebornsServeur\\HogRebornsServeur.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "exports.def",
+              "DocumentMoniker": "C:\\HogReborns\\Framework\\source\\repos\\HogReborns\\exports.def",
+              "RelativeDocumentMoniker": "exports.def",
+              "ToolTip": "C:\\HogReborns\\Framework\\source\\repos\\HogReborns\\exports.def",
+              "RelativeToolTip": "exports.def",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2024-12-08T13:47:41.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HogRebornsServeur.cpp",
+              "DocumentMoniker": "C:\\HogReborns\\Framework\\source\\repos\\HogRebornsServeur\\HogRebornsServeur.cpp",
+              "RelativeDocumentMoniker": "..\\HogRebornsServeur\\HogRebornsServeur.cpp",
+              "ToolTip": "C:\\HogReborns\\Framework\\source\\repos\\HogRebornsServeur\\HogRebornsServeur.cpp",
+              "RelativeToolTip": "..\\HogRebornsServeur\\HogRebornsServeur.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-08T10:52:38.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HogReborns.cpp",
+              "DocumentMoniker": "C:\\HogReborns\\Framework\\source\\repos\\HogReborns\\HogReborns.cpp",
+              "RelativeDocumentMoniker": "HogReborns.cpp",
+              "ToolTip": "C:\\HogReborns\\Framework\\source\\repos\\HogReborns\\HogReborns.cpp",
+              "RelativeToolTip": "HogReborns.cpp",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAD4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T19:46:30.457Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
